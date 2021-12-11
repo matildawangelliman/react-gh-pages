@@ -1,0 +1,41 @@
+.Navigation {
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top:0%;
+  left:0%;
+  padding: 1%  8%;
+  font-size: 0.3em;
+  font-family: Arial;
+  color: #3f3f3f;
+  height: 50px;
+  background-color: white;
+  width: 100%;
+  z-index:4
+  /* max-width: calc(100% - 20px); */
+}
+
+.Nav-right{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.hamburger-react{
+  margin-right: 175%;
+}
+
+.h1 {
+  margin-right: 9%;
+} 
+
+.Brand-logo {
+  /* width: 100%; */
+
+  height: auto;
+  /* Recommended - Limit maximum width */
+  max-width: 196px;
+}
