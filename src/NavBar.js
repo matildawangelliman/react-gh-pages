@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './NavBar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import logo from './logo.svg';
+import logo from './fonts_logo/logo.svg';
 
 function Navbar() {
   const [click, setClick] = useState(false);

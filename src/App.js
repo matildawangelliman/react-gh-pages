@@ -2,6 +2,8 @@ import './App.css';
 // import Navigation from './Navigation';
 import HeroCarousel from './HeroCarousel';
 import NavBar from './NavBar';
+import MasonryContainer from './MasonryContainer'
+
 
 function App() {
   return (
@@ -10,8 +12,7 @@ function App() {
        */}
       <NavBar/>
       <HeroCarousel/>
-  
-      
+      <MasonryContainer/>
     </div>
   );
 }

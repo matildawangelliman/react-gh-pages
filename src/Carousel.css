@@ -149,12 +149,12 @@
 
 @font-face {
     font-family: 'caslon';
-    src: url('./fonts/ACaslonPro-Regular.otf')
+    src: url('./fonts_logo/ACaslonPro-Regular.otf')
   }
   
   @font-face {
     font-family: 'springville';
-    src: url('./fonts/Springville-Regular3.otf')
+    src: url('./fonts_logo/Springville-Regular3.otf')
   }
 
 .Hero-text {

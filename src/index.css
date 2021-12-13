@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'caslon';
   src: url('./fonts/ACaslonPro-Regular.otf')
 }
@@ -21,4 +21,4 @@ code {
 @font-face {
   font-family: 'springville';
   src: url('./fonts/Springville-Regular3.otf')
-}
+} */

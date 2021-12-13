@@ -1,0 +1,92 @@
+.MasonryContainer {
+  display: flex;
+  justify-content: center;
+  /* a little too wide? the design is about 6.375em */
+  margin-top: 6em;
+}
+
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  /* Style your items */
+  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+    background: #ffff;
+    margin-bottom: 30px;
+  }
+  
+
+  /* content text */
+  .date {
+    font-size:10px;
+    font-family: Arial;
+    margin:0%;
+    width:348px;
+    color:#767676;
+    font-weight: 50;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+  }
+  
+  .title {
+    font-size:48px;
+    font-family: springville;
+    margin-top: -0.65em;
+    /* margin-bottom: -0.65em; */
+    width:348px;
+    font-weight: 50;
+    color:#131313;
+  }
+
+  .author-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    /* margin-top:1.5em; */
+    margin-bottom: 3.125;
+  }
+
+  .ref::before {
+    font-size:14px;
+    font-family: caslon;
+    color:#131313;
+    content: "Presented by ";
+    display: inline;
+    text-decoration: none;
+  }
+  
+  #author:link {
+    font-size:14px;
+    font-family: caslon;
+    margin:0%;
+    text-decoration: underline;
+
+    width:348px;
+    color:#131313;
+  }
+
+  #author:visited {
+    font-size:14px;
+    font-family: caslon;
+    margin:0%;
+    text-decoration: underline;
+
+    width:348px;
+    color:#131313;
+  }
+
+  .line{
+    border-bottom: 0.3px solid #767676;
+    margin-top: 3.125em;
+  }
+
+  
