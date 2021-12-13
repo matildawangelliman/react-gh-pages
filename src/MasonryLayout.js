@@ -42,7 +42,9 @@ function MasonryLayout() {
     default: 3,
     1024: 2,
     700:1,
-    480: 1
+    480:1,
+    420:1,
+    320:1,
   };
 
     return (

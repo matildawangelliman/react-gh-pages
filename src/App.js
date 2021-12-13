@@ -1,18 +1,16 @@
 import './App.css';
-// import Navigation from './Navigation';
 import HeroCarousel from './HeroCarousel';
 import NavBar from './NavBar';
 import MasonryContainer from './MasonryContainer'
-
+import FooterContainer from './FooterContainer'
 
 function App() {
   return (
     <div className="App">
-      {/* <Navigation/>
-       */}
       <NavBar/>
       <HeroCarousel/>
       <MasonryContainer/>
+      <FooterContainer/>
     </div>
   );
 }
