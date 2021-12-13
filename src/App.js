@@ -1,12 +1,17 @@
 import './App.css';
-import Navigation from './Navigation'
-import HeroCarousel from './HeroCarousel'
+// import Navigation from './Navigation';
+import HeroCarousel from './HeroCarousel';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      {/* <Navigation/>
+       */}
+      <NavBar/>
       <HeroCarousel/>
+  
+      
     </div>
   );
 }
