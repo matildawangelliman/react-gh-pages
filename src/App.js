@@ -1,5 +1,5 @@
 import './App.css';
-import HeroCarousel from './HeroCarousel';
+import CarouselContainer from './CarouselContainer';
 import NavBar from './NavBar';
 import MasonryContainer from './MasonryContainer'
 import FooterContainer from './FooterContainer'
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <HeroCarousel/>
+      <CarouselContainer/>
       <MasonryContainer/>
       <FooterContainer/>
     </div>

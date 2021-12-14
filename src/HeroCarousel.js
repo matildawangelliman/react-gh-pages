@@ -1,6 +1,6 @@
 import useFetch from './functions/useFetch';
 import Carousel, { CarouselItem } from "./Carousel";
-import './Carousel.css'
+import './CarouselContainer.css'
 
 
 function HeroCarousel() {
@@ -24,17 +24,23 @@ function HeroCarousel() {
             { serverError && <h1 className ="laoding-and-error">Oops, sorry something went wrong..</h1> }
              
             <Carousel>
-            { Object.entries(heroCarousel).map((ele,i) => <CarouselItem id="image-size" key={i}> <img alt={ele[0]} src={ele[1]}/></CarouselItem>) } 
-            {/* <CarouselItem > <img alt="hi" src={Image1}/></CarouselItem>
-            <CarouselItem > <img alt="hi" src={Image2}/></CarouselItem>
-            <CarouselItem > <img alt="hi" src={Image3}/></CarouselItem> */}
+            { Object.entries(heroCarousel).map((ele,i) => <CarouselItem key={i}> <img id="images" alt={ele[0]} src={ele[1]}/></CarouselItem>) } 
+
             </Carousel>
 
-            { apiData && 
+            {/* { apiData && 
             <div className="Hero-text">
                 <div id="title">{heroText[0]['title']}</div> <br/> 
                 <div id="date">{heroText[0]['date']}</div> <br/> 
                 <div id="subtitle">{heroText[0]['subtitle']} </div>
+            </div> 
+            }  */}
+
+            { apiData && 
+            <div className="Hero-text">
+                <div id="title">Screening:<br/>DVF Secret Agent Part 2</div> <br/> 
+                <div id="date">October 15, 2021</div> <br/> 
+                <div id="subtitle">Join us for a private screening of DVF Secret Agent Part 2<br/> with our special guest, director Peter Lindberg. </div>
             </div> 
             }           
         </div>

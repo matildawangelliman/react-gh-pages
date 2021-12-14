@@ -10,10 +10,10 @@ function FooterLayout() {
             <div className="footer-link-display">
                 <span className="link-ref">
                     <span className="dash">
-                    <a id="social" href="/">INSTAGRAM</a>
+                    <a id="social" href="https://www.instagram.com/">INSTAGRAM</a>
                     </span>
-                    <span className="dash"> <a id="social" href="/">FACEBOOK</a></span>
-                    <span className="dash"><a id="social" href="/">TWITTER</a></span>
+                    <span className="dash"> <a id="social" href="https://www.facebook.com/">FACEBOOK</a></span>
+                    <span className="dash"><a id="social" href="https://twitter.com/home">TWITTER</a></span>
                 </span>
             </div>
         </div>

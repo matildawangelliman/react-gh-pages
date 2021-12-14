@@ -1,11 +1,11 @@
-.MasonryContainer {
+    .MasonryContainer {
     display: flex;
     justify-content: center;
     /* a little too wide? the design is about 6.375em */
     margin-top: 6em;
-  }
+    }
   
-  .my-masonry-grid {
+   .my-masonry-grid {
       display: -webkit-box; /* Not needed if autoprefixing */
       display: -ms-flexbox; /* Not needed if autoprefixing */
       display: flex;
@@ -108,14 +108,14 @@
             width: 295.8px; 
           }
 
-           .title {
+        .title {
             width:295.8px;
-          }
+        }
 
-          .line{
+        .line {
             border-bottom: 0.3px solid #767676;
             margin-top: 3.125em;
             width:295.8px;
-          }
+        }
         
     }

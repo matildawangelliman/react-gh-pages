@@ -1,0 +1,317 @@
+ .CarouselContainer {
+  display: flex;
+  justify-content: center;
+ /* align-items: flex-start; */
+
+  /* position: relative;
+  text-align: center;
+  color: rgb(175, 78, 78); */
+}
+
+/* .text-on-hero {
+  position: absolute;
+
+  font-size: 60px;
+} */
+
+ .carousel {
+   overflow: hidden;
+ }
+ 
+ .inner {
+   white-space: nowrap;
+   transition: transform 0.01s;
+ }
+ 
+ .carousel-item {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   height: 580px;
+   /* background-color:pink */
+ }
+
+ #images {
+   filter: brightness(70%)
+ }
+
+ @media screen and (min-width:320px) and (max-width:450px) {
+  .carousel-item{
+    height: auto;
+    width: 480px;
+  }
+
+
+
+  #images {
+    height: auto;
+    width: 480px;
+  }
+
+  
+}
+
+ @media screen and (min-width:450px) and (max-width:480px) {
+   .carousel-item{
+     height: auto;
+     width: 480px;
+   }
+
+
+   #images {
+     height: 360px;
+     width: 893.79px;
+   }
+ }
+
+  /* Nexus 7 viewPoint 600 */
+ @media screen and (min-width:600px) and (max-width:768px) {
+   .carousel-item{
+     height: auto;
+     width: 768px;
+   }
+
+   #images {
+     height: auto;
+     width: 768px;
+   }
+ }
+
+
+ @media screen and (min-width:480px) and (max-width:600px) {
+  .carousel-item{
+    height: auto;
+    width: 600px;
+  }
+
+  #images {
+    height: auto;
+    width: 768px;
+  }
+}
+
+ @media screen and (min-width:768px) and (max-width:1024px) {
+   .carousel-item{
+     height: auto;
+     width: 1024px;
+   }
+
+   #images {
+     height: auto;
+     width: 1024px;
+   }
+ }
+
+ @media screen and (min-width:1024px) and (max-width:1440px) {
+   .carousel-item{
+     height: auto;
+     width: 1440px;
+   }
+
+   #images {
+     height: auto;
+     width: 1440px;
+   }
+
+ }
+
+
+ @media screen and (min-width:1440px) {
+   .carousel-item {
+     height: auto;
+     width: auto;
+   }
+
+   #images {
+     width:1920px;
+     height:auto;
+   }
+ }
+
+
+ .indicators {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+/* 
+   z-index: 3; */
+ }
+ 
+ .indicators > button {
+   height: 15px;
+   width: 15px;
+   /* margin: 0 2px; */
+   background-color: rgb(235, 235, 235);
+   border-color: transparent;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+   /* margin-top: 15px;
+   margin-left: 10px;
+   margin-right: 10px; */
+   margin:15px;
+ }
+ 
+ .indicators > button.active {
+   height: 15px;
+   width: 15px;
+   /* margin: 0 2px; */
+   background-color: #bbb;
+   border-color: transparent;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+   /* margin-top: 15px;
+   margin-left: 10px;
+   margin-right: 10px; */
+   margin:15px;
+ }
+
+ 
+/* text on carousel */
+
+.laoding-and-error {
+   font-size: 0.8em;
+   font-family: Arial;
+   color: #3f3f3f;
+}
+
+
+@font-face {
+   font-family: 'caslon';
+   src: url('./fonts_logo/ACaslonPro-Regular.otf')
+ }
+ 
+ @font-face {
+   font-family: 'springville';
+   src: url('./fonts_logo/Springville-Regular3.otf')
+ }
+
+.hero {
+  position: relative;
+  display:flex;
+  /* justify-content: space-around; */
+  
+  align-items:flex-start;
+  text-align: left;
+  color: #ffff;
+
+
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+} 
+.Hero-text {
+   position: absolute;
+   /* bottom: 25%; */
+   left: 39.75%;
+   /* z-index: 5; */
+   
+}
+
+#title {
+   font-family: "springville";
+   font-size: 60px;
+   line-height: 1.2;
+   
+}
+
+#date {
+   font-family: "caslon";
+   font-size: 30px;
+
+}
+
+#subtitle {
+   font-family: caslon;
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .Hero-text {
+   bottom: 30%;
+   left: 43%;
+  }
+
+  #title {
+    font-family: "springville";
+    font-size: 30px;
+    line-height: 1.2;
+ }
+ 
+ #date {
+    font-family: "caslon";
+    font-size: 15px;
+ }
+ 
+ #subtitle {
+    font-family: caslon;
+    font-size: 11px;
+    line-height: 1.5;
+ }
+}
+/* @media only screen and (max-width: 1024px) {
+  .Hero-text {
+   bottom: 12%;
+  }
+} */
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .Hero-text {
+   bottom: 25%;
+   left: 36%;
+  }
+  #title {
+    font-family: "springville";
+    font-size: 30px;
+    line-height: 1.2;
+ }
+ 
+ #date {
+    font-family: "caslon";
+    font-size: 20px;
+ }
+ 
+ #subtitle {
+    font-family: caslon;
+    font-size: 15px;
+    line-height: 1.5;
+ }
+}
+
+@media screen and (min-width:320px) and (max-width:450px) {
+  .Hero-text {
+    bottom: 25%;
+    left: 40%;
+   }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .Hero-text {
+   bottom: 25%;
+   left: 41.75%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .Hero-text {
+   bottom: 25%;
+   left: 39%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .Hero-text {
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 1440) {
+  .Hero-text {
+   bottom: 20%;
+  }
+}
+

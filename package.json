@@ -47,5 +47,5 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "homepage": "http://matildawangelliman.github.io/react-gh-pages"
+  "homepage":"http://matildawangelliman.github.io/react-gh-pages"
 }
