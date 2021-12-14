@@ -89,14 +89,11 @@
     .line{
       border-bottom: 0.3px solid #767676;
       margin-top: 3.125em;
-
-
       width:348px;
     }
 
   
     @media screen and (min-width: 300px) and (max-width: 355px) {
-
         .MasonryContainer {
             margin-top: 2em;
           }
@@ -116,11 +113,9 @@
         }
 
         .my-masonry-grid {
-          display: -webkit-box; /* Not needed if autoprefixing */
-          display: -ms-flexbox; /* Not needed if autoprefixing */
-          display: flex;
           justify-content: center;
           margin-left: 25px; /* gutter size offset */
-          width: auto;
         }
     }
+
+
