@@ -15,20 +15,19 @@ function MasonryLayout() {
     //   });
     // }
   // console.log(sorted)
-    const [ isLoading, setIsLoading ] = useState(true)
+    // const [ isLoading, setIsLoading ] = useState(true)
     const [ masonry, setMasonry ] = useState([])
     useEffect(()=>{
         fetch('https://s0nshulo19.execute-api.us-east-1.amazonaws.com/default/code-challenge')
         .then(res => res.json())
         .then((data) => {
-            console.log("beforesort",data.cards)
             data.cards.sort(function(a,b){
                 // Turn your strings into dates, and then subtract them
                 // to get a value that is either negative, positive, or zero.
                 return new Date(b.date) - new Date(a.date);
               });
              setMasonry(data.cards)
-             setIsLoading(false)   
+            //  setIsLoading(false)   
         })
         .catch(console.log)
   },[])

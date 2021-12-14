@@ -1,9 +1,12 @@
 import './FooterContainer.css'
+// import SignUpForm from './SignUpForm'
+import SignUp from './SignUp.js'
 
 function FooterLayout() {
     return (
         <div>
             <div className="sign-up">Sign up for our Newsletter</div>
+            <SignUp/>
             <div className="footer-link-display">
                 <span className="link-ref">
                     <span className="dash">

@@ -10,6 +10,21 @@
     font-size: 18px;
     font-family: "caslon";
     color: #131313;
+    margin-bottom: 18px;
+}
+
+
+
+.signUp-success {
+    font-size: 20px;
+    font-family: "caslon";
+    color: #131313;
+}
+
+.error-message {
+    font-size: 20px;
+    font-family: "caslon";
+    color: #131313;
 }
 
 .footer-link-display{
@@ -17,6 +32,7 @@
     font-weight: bold;
     font-family: Arial;
     color: #131313;
+    margin-bottom: 75px;
 }
 
 .footer-link-display::before{
@@ -41,7 +57,47 @@
     color: #131313;
 }
 
-@media screen and (min-width:1440px) {
+
+
+
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+  
+  form {
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+
+  form input {
+    width: 250px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "caslon";
+  }
+
+  form button {
+    width: 94px;
+    height: 41px;
+    font-family: "caslon";
+    font-size: 16px;
+    color: #ffff;
+    background-color: black;
+    border-color: transparent;
+    text-align: center;
+  }
+
+
+  @media screen and (min-width:1440px) {
     .sign-up {
         font-size: 22px;
         font-family: "caslon";
@@ -59,4 +115,36 @@
     #social:visited {
         font-size: 12px;
     }
+  }
+
+  @media screen and (min-width:320px) and (max-width:374px) {
+
+    form {
+        /* position: fixed; */
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 48px;
+        /* width:250px; */
+      }
+
+    form input {
+        width: 200px;
+        height: 35px;
+        font-size: 14px;
+        font-family: "caslon";
+      }
+    
+      form button {
+        width: 80px;
+        height: 41px;
+        font-family: "caslon";
+        font-size: 16px;
+        color: #ffff;
+        background-color: black;
+        border-color: transparent;
+        text-align: center;
+      }
 }
