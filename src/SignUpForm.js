@@ -8,8 +8,6 @@ function SignUpForm({submitForm}) {
     const [inputValues, setValues] = useState({
         email: '',
       });
-    
-    
     const [errors, setErrors] = useState({});
     const [dataIsCorrect, setDataIsCorrect] = useState(false);
 
@@ -20,13 +18,12 @@ function SignUpForm({submitForm}) {
         })
       };
     
-      const addEmail = () => {
+    const addEmail = () => {
         axios.post('https://s0nshulo19.execute-api.us-east-1.amazonaws.com/default/code-challenge',{
-            email: inputValues.email,
+          email: inputValues.email,
           }).then(response => {
               console.log("print",response.data)
           })
-          //set the input filed to empty string after submit the form
           setValues('');
     }
 

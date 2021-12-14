@@ -1,6 +1,6 @@
-import './FooterContainer.css'
+import './FooterContainer.css';
 // import SignUpForm from './SignUpForm'
-import SignUp from './SignUp.js'
+import SignUp from './SignUp.js';
 
 function FooterLayout() {
     return (
@@ -19,4 +19,4 @@ function FooterLayout() {
         </div>
     )
 }
-export default FooterLayout
+export default FooterLayout;

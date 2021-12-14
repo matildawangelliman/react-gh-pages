@@ -9,4 +9,4 @@ function MasonryContainer() {
     )
 }
 
-export default MasonryContainer
+export default MasonryContainer;

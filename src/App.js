@@ -1,8 +1,8 @@
 import './App.css';
 import CarouselContainer from './CarouselContainer';
 import NavBar from './NavBar';
-import MasonryContainer from './MasonryContainer'
-import FooterContainer from './FooterContainer'
+import MasonryContainer from './MasonryContainer';
+import FooterContainer from './FooterContainer';
 
 function App() {
   return (

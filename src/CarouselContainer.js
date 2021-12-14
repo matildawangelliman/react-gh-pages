@@ -1,4 +1,4 @@
-import HeroCarousel from './HeroCarousel.js';
+import HeroCarousel from './HeroCarousel';
 import './CarouselContainer.css'
 
 function CarouselContainer() {
@@ -9,4 +9,4 @@ function CarouselContainer() {
     )
 }
 
-export default CarouselContainer
+export default CarouselContainer;

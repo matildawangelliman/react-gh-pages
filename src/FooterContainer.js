@@ -1,5 +1,4 @@
-import React from 'react'
-import FooterLayout from './FooterLayout'
+import FooterLayout from './FooterLayout';
 
 function FooterContainer() {
     return (
@@ -9,4 +8,4 @@ function FooterContainer() {
     )
 }
 
-export default FooterContainer
+export default FooterContainer;

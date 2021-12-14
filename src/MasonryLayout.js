@@ -10,7 +10,7 @@ function MasonryLayout() {
         .then(res => res.json())
         .then((data) => {
             data.cards.sort(function(a,b){
-                // Turn your strings into dates, and then subtract them
+                // Turn the strings into dates, and then subtract them
                 // to get a value that is either negative, positive, or zero.
                 return new Date(b.date) - new Date(a.date);
               });
@@ -44,4 +44,4 @@ function MasonryLayout() {
     )
 }
 
-export default MasonryLayout
+export default MasonryLayout;

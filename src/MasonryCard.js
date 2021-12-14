@@ -10,4 +10,4 @@ function MasonryCard({item}) {
     )
 }
 
-export default MasonryCard
+export default MasonryCard;
