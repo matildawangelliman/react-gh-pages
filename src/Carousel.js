@@ -59,6 +59,9 @@ const Carousel = ({ children }) => {
           return (
             <button
               className={`${index === activeIndex ? "active" : ""}`}
+              onClick={() => {
+                updateIndex(index);
+              }}
             >
               {}
             </button>

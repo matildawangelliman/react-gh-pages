@@ -1,6 +1,6 @@
 function MasonryCard({item}) {
     return (
-        <div>
+        <div className="cards">
            <img className="pics" alt={item.alt} src={item.image}/> <br/>
            <div className="date"> {item.date}  </div> <br/>
            <div className="title"> {item.title} </div> <br/>

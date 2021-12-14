@@ -1,4 +1,4 @@
- .CarouselContainer {
+.CarouselContainer {
   display: flex;
   justify-content: center;
 
@@ -277,4 +277,3 @@
    bottom: 20%;
   }
 }
-
